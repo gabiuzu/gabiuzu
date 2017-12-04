@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:700');
+
+body {
+    background-color: #ccddff;
+}
+
+h1 {
+  font-size: 750%;
+  font-family: 'Istok Web', sans-serif;
+}
+
+#gabi_enterp {
+  border-bottom: solid 4px #cc4400;
+}
+
+#Gabi_logo {
+  float: right;
+}

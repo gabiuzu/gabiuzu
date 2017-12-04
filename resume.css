@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/*header {*/
+  /*height: 120px;*/
+/*}*/
+
+/*name and job title*/
+#left_info {
+  border-right: solid 1px #b3aca7;
+  padding-left: 30%;
+}
+
+/*DOB and Nationality*/
+
+#right_info {
+
+}
