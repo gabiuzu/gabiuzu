@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 /*Constant CSS throughout whole website*/
 body {
@@ -82,6 +82,7 @@ footer {
   text-align: center;
   align-items: center;
   font-family: 'Nunito', sans-serif;
+  margin-top: 80px;
 
 }
 

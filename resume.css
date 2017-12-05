@@ -1,17 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-/*header {*/
-  /*height: 120px;*/
-/*}*/
+
+/*header {
+  height: 150px;
+/*/
+.grid-container {
+  max-width: none;
+}
+
+/*Font*/
+body {
+  font-family: 'Nunito', sans-serif;
+}
 
 /*name and job title*/
 #left_info {
-  border-right: solid 1px #b3aca7;
-  padding-left: 30%;
+  border-right: solid 2px #cc4400;
+  padding-left: 35%;
+}
+
+/*Web Developer*/
+.webd {
+  padding-left: 20%;
 }
 
 /*DOB and Nationality*/
-
 #right_info {
+  padding-top: 30px;
+}
+
+#profile {
+  padding-top: 5%;
+  border-right: solid 2px #cc4400;
+}
+
+#Education {
+  padding-top: 5%;
+}
+
+#profile_title {
+  float: right;
+}
+
+#profile_des {
+  float: right;
+  padding-left: 30%;
+}
+
+#Job_Experience {
+  border-right: solid 2px #cc4400;
+}
+
+.job_dates {
+  float: right;
+  font-weight: bold;
+  color: #cc4400;
+}
+
+.progress {
+  margin-bottom: 10px;
+  background-color: #ccddff !important;
+}
+
+/*#Education {
+  margin: auto;
+}*/
+.CIS {
+  line-height: 20%;
+  margin-bottom: 5%;
 
 }
+
+.RGU {
+  line-height: 20%;
+}
+
+
+
+/*Progress bar background*/
+/*.pbbg {
+  background-color: #ccddff;
+}*/

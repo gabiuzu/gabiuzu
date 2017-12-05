@@ -7,15 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>GABRIELA UZUNOVA</title>
   <!-- Bootstrap css-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/
-  bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <!-- Font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <!-- Unsemantic -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.1.3/unsemantic-grid-responsive-tablet.css">
-  <!-- Resume css -->
   <link rel="stylesheet" href="resume.css">
-  <!-- Base css -->
   <link rel="stylesheet" href="base.css">
 
 </head>
@@ -60,7 +57,7 @@
       <!--Section 1-Name and job title -->
       <section id="left_info" class="grid-50 tablet-grid-50 mobile-grid-50">
         <h1>Gabriela Uzunova</h1>
-        <p>Web Developer</p>
+        <p><small class="text-muted webd">Web Developer</small></p>
       </section>
 
       <!--Section 2-DOB and Nationality-->
@@ -71,29 +68,40 @@
     </div>
 
     <!--Section 3-Profile-->
-    <section id="Profile">
-      <h3>Profile</h3>
-      <p>Currently doing my bachelors degree in Digital Media at Robert Gordons University. Hoping to progress this knowledge into a creative field of work post graduation. Comfortable working as part of a team and independantly wihtout supervision.
-    </section>
+    <div class="grid-container">
+      <section id="profile" class="grid-50 tablet-grid-50 mobile-grid-50">
+        <h2 id="profile_title">Profile</h2>
+        <p id="profile_des">Currently doing my bachelors degree in Digital Media at Robert Gordons University. Hoping to progress this knowledge into a creative field of work post graduation. Comfortable working as part of a team and independantly wihtout supervision.
+      </section>
 
-    <!--Section 4-Education-->
-    <section id="Education">
-      <h3>Education</h3>
-      <p>Cambridge International School, <small class="text-muted">2004-2016</small></p>
-      <p>IGCSE, As & A Levels</p>
+      <!--Section 4-Education-->
+      <section id="Education" class="grid-50 tablet-grid-50 mobile-grid-50">
+        <div class="CIS">
+        <h2>Education</h2>
+        <p>Cambridge International School, <small class="text-muted">2004-2016</small></p>
+        <p>IGCSE, As & A Levels</p>
+        </div>
 
-
-      <p>Robert Gordon University,<small class="text-muted"> 2017-present</small></p>
-      <p>Bachelors in Digital Media</p>
-    </section>
+        <div class="RGU">
+        <p>Robert Gordon University,<small class="text-muted"> 2017-present</small></p>
+        <p>Bachelors in Digital Media</p>
+        </div>
+      </section>
+    </div>
 
     <!--Section 5-Experience-->
     <section id="Work">
-      <h3>Experience</h3>
-      <!--Job 1-->
-      <div id="Job Experience">
-        <ul>
-          <li><span id="Work Titles">Store Supervisor,<small class="text-muted"> Icon Stores LTD.</small></span></li>
+        <h2>Experience</h2>
+
+        <!--Job 1-job title-->
+        <div class="grid-container">
+        <section class="grid-50 tablet-grid-50 mobile-grid-50">
+        <div class="work_titles">
+          <p>Store Supervisor,<small class="text-muted"> Icon Stores LTD.<span class="job_dates">2016-present</span></small></p>
+        </div>
+
+        <!-- job 1-Work description -->
+        <div class="work_des">
           <ul>
             <li>Provided excellent customer service at all times and answered various customer inquiries.</li>
             <li>Maintained a balanced cash drawer at all times</li>
@@ -104,11 +112,17 @@
             <li>Promoted from store assitant to store supervisor</li>
             <li>Trained all new employees in all aspects of the business</li>
           </ul>
-        </ul>
+        </div>
+        </section>
 
-        <!--Job 2-->
-        <ul>
-          <li><span id="Work Titles">Shop Assistant,<small class="text-muted">Aye Scream</small></span></li>
+        <!--Job 2-job title-->
+        <section class="grid-50 tablet-grid-50 mobile-grid-50">
+        <div class="work_titles">
+          <p>Shop Assitant,<small class="text-muted"> Aye Scream<span class="job_dates">2016</span></small></p>
+        </div>
+
+        <!-- job 2-Work description -->
+        <div class="work_des">
           <ul>
             <li>Serving customers and dealing with any complaints or inquiries</li>
             <li>Prepared fresh food every morning such as sandwiches, soup, macaroni, etc.</li>
@@ -116,55 +130,90 @@
             <li>In charge of all social media accounts</li>
             <li>Commisioned to create a chalkboard menu for the shop</li>
           </ul>
-        </ul>
+        </div>
+      </section>
+    </div>
 
-        <!--Job 3-->
-        <ul>
-          <li><span id="Work Titles">Lead Entertainer, <small class="text-muted">Little Sparkles Parties</small></span></li>
+        <!--Job 3-job title-->
+        <div class="grid-container">
+        <section class="grid-50 tablet-grid-50 mobile-grid-50">
+        <div class="work_titles">
+          <p>Lead Entertainer,<small class="text-muted"> Little Sparkles Parties<span class="job_dates">2013-2016</span></small></p>
+        </div>
+
+        <!-- job 3-Work description -->
+        <div class="work_des">
           <ul>
             <li>Organising, setting up and running tailor made childrens birthday parties</li>
             <li>Providing childrens party entertainment and face paint</li>
             <li>In charge of training new staff memebers</li>
             <li>Coordinating external employees</li>
           </ul>
-        </ul>
+        </div>
+      </section>
 
-        <!--Job 4-->
-        <ul>
-          <li><span id="Work Titles">Social Media & Community Manager, <small class="text-muted">The Brave Art Ltd.</small></span></li>
+        <!--Job 4-job title-->
+        <section class="grid-50 tablet-grid-50 mobile-grid-50">
+        <div class="work_titles">
+          <p>Social Media & Community Manager,<small class="text-muted"> The Brave Art Ltd.<span class="job_dates">2014-2015</span></small></p>
+        </div>
+
+        <!-- job 4-Work description -->
+        <div class="work_des">
           <ul>
             <li>Updating social media outlets</li>
             <li>Assisting in company development planning</li>
             <li>Organinsing and planning events/exhibitions</li>
             <li>Company representative at various events/exhibitions</li>
           </ul>
-        </ul>
+        </div>
+      </section>
       </div>
-
-      <!--Job Dates-->
-      <aside id="Job Dates">
-        <p>2016-present</p>
-        <p>2016</p>
-        <p>2013-2016</p>
-        <p>2014-2015</p>
-      </aside>
-
     </section>
 
+
     <!--Section 6-Skills-->
-    <section id="Skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>Photoshop</li>
-        <li>Illustrator</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Microsoft Office</li>
-        <li>Teamwork</li>
-        <li>Problem Solving</li>
-        <li>Fluent in Bulgarian and English</li>
-      </ul>
+    <div class="grid-container">
+      <section class="grid-100 tablet-grid-100 mobile-grid-100 pbbg">
+        <h2>Skills</h2>
+        <!-- Microsoft Office -->
+        <div class="progress">
+          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Microsoft Office</div>
+        </div>
+        <!-- Photoshop -->
+        <div class="progress">
+          <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+        </div>
+        <!-- Illustrator -->
+        <div class="progress">
+          <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Illustrator</div>
+        </div>
+        <!-- HTML -->
+        <div class="progress">
+          <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div>
+        <!-- CSS -->
+        <div class="progress">
+          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        </div>
+        <!-- Javascript -->
+        <div class="progress">
+          <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+        </div>
+        <!-- Teamwork -->
+        <div class="progress">
+          <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Teamwork</div>
+        </div>
+        <!-- Problem Solving -->
+        <div class="progress">
+          <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Problem Solving</div>
+        </div>
+        <!-- Languages -->
+        <div class="progress">
+          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Fluent in Bulgarian & English</div>
+        </div>
+    </div>
+
     </section>
 
     <!--Section 7-Refs-->
@@ -176,8 +225,8 @@
 
   <!--Start of footer-->
   <div class="grid-container">
-    <footer class="grid-100">
-      <h3>Access Keys</h3>
+    <footer>
+      <h3 id="Access">Access Keys</h3>
       <ul>
         <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>H</strong>ome</li>
         <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>R</strong>esume</li>
@@ -189,10 +238,9 @@
   <!--End of footer-->
 
   <!-- Bootstrap javascript -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-
-  KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 
