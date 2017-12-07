@@ -1,15 +1,10 @@
 
-.grid-container {
-  max-width: none;
-}
-
 /*Font*/
-body {
+body{
   font-family: 'Nunito', sans-serif;
 }
 
 /*Educaiton and profile*/
-
 .top_text {
     padding-top: 30px;
 }
