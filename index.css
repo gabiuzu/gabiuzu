@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Istok+Web:700');
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
 
+.grid-container {
+  max-width: none;
+}
+
+p {
+  max-width: none;
+}
 body {
-    background-color: #ccddff;
+    background-color: #e6eeff;
 }
 
 h1 {
@@ -18,5 +26,7 @@ h1 {
 }
 
 .pointer {
-  padding-left: 80%;
+  position: relative;
+  top:0;
+  right: 0;
 }

@@ -18,224 +18,241 @@
 </head>
 
 <body>
-  <div class="grid-container">
-    <!--Start of header-->
-    <header>
-      <!--Logo-->
-      <div class="grid-25 tablet-grid-10 mobile-grid-33">
-        <img id="Gabi_logo" src="logo.png" alt="Gabriela Uzunova Logo">
-      </div>
 
-      <!--Website Navigation-->
-      <nav class="grid-75 tablet-grid-50 mobile-grid-50">
-        <ul id="quicklinks">
-          <li><a href="homepage.html" accesskey="h">Home</a></li>
+  <!--Start of header-->
+  <header>
+    <!-- Bootstrap Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+      <a class="navbar-brand gabi_name"><img src="logo.png" id="Gabi_logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <li><a href="Resume.html" accesskey="r">Resume</a></li>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-          <li><a href="projects.html" accesskey="p">Projects</a></li>
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="homepage.html" accesskey="h">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="active" href="Resume.html" accesskey="r">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html" accesskey="p">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link_border" href="contact.html " accesskey="c">Contact Me</a>
+          </li>
 
-          <li id="link_border"><a href="contact.html" accesskey="c">Contact Me</a></li>
-
-          <!-- Social Media Links -->
-          <li><a href="https://www.linkedin.com/in/gabriela-uzunova-518077aa/"><i class="fa fa-linkedin-square fa-3xtest" aria-hidden="true"></i></a></li>
-
-          <li><a href="https://www.youtube.com/user/gabiuzu"><i class="fa fa-youtube-play fa-3xtest" aria-hidden="true"></i></a></li>
-
-          <li><a href="https://www.instagram.com/gabiuzu/"><i class="fa fa-instagram fa-3xtest" aria-hidden="true"></i></a></li>
+          <!-- social media links -->
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/gabriela-uzunova-518077aa/"><i class="fa fa-linkedin-square fa-3xtest" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/user/gabiuzu"><i class="fa fa-youtube-play fa-3xtest" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/gabiuzu/"><i class="fa fa-instagram fa-3xtest" aria-hidden="true"></i></a>
+          </li>
         </ul>
-      </nav>
-  </div>
+      </div>
+    </nav>
 
+    <!--Logo-->
+    <!-- <div class="grid-25 tablet-grid-10 mobile-grid-33">
+      <img id="Gabi_logo" src="logo.png" alt="Gabriela Uzunova Logo">
+    </div> -->
   </header>
   <!--End of header-->
 
 
   <!--Start Main-->
   <main>
-    <div class="grid-container">
-      <!--Section 1-Name and job title -->
-      <section id="left_info" class="grid-50 tablet-grid-50 mobile-grid-50">
-        <h1>Gabriela Uzunova</h1>
-        <p><small class="text-muted webd">Web Developer</small></p>
-      </section>
 
-      <!--Section 2-DOB and Nationality-->
-      <section id="right_info" class="grid-50 tablet-grid-50 mobile-grid-50">
-        <p><strong>DOB:</strong> 27/01/1997</p>
-        <p><strong>Nationality:</strong> Bulgarian</p>
-      </section>
+    <!--Section 1-Profile-->
+    <div class="top_text">
+      <div class="grid-container">
+        <section id="profile" class="grid-50 tablet-grid-50 mobile-grid-50">
+          <h2 id="profile_title">Profile</h2>
+          <p id="profile_des">Currently doing my bachelors degree in Digital Media at Robert Gordons University. Hoping to progress this knowledge into a creative field of work post graduation. Comfortable working as part of a team and independantly wihtout supervision.
+        </section>
+
+        <!--Section 2-Education-->
+        <section id="Education" class="grid-50 tablet-grid-50 mobile-grid-50">
+          <div class="CIS">
+            <h2>Education</h2>
+            <p>Cambridge International School, <small class="text-muted">2004-2016</small></p>
+            <p>IGCSE, As & A Levels</p>
+          </div>
+
+          <div class="RGU">
+            <p>Robert Gordon University,<small class="text-muted"> 2017-present</small></p>
+            <p>Bachelors in Digital Media</p>
+          </div>
+        </section>
+      </div>
     </div>
 
-    <!--Section 3-Profile-->
-    <div class="grid-container">
-      <section id="profile" class="grid-50 tablet-grid-50 mobile-grid-50">
-        <h2 id="profile_title">Profile</h2>
-        <p id="profile_des">Currently doing my bachelors degree in Digital Media at Robert Gordons University. Hoping to progress this knowledge into a creative field of work post graduation. Comfortable working as part of a team and independantly wihtout supervision.
-      </section>
-
-      <!--Section 4-Education-->
-      <section id="Education" class="grid-50 tablet-grid-50 mobile-grid-50">
-        <div class="CIS">
-        <h2>Education</h2>
-        <p>Cambridge International School, <small class="text-muted">2004-2016</small></p>
-        <p>IGCSE, As & A Levels</p>
-        </div>
-
-        <div class="RGU">
-        <p>Robert Gordon University,<small class="text-muted"> 2017-present</small></p>
-        <p>Bachelors in Digital Media</p>
-        </div>
-      </section>
-    </div>
-
-    <!--Section 5-Experience-->
+    <!--Section 3-Experience-->
     <section id="Work">
-        <h2>Experience</h2>
+      <h2 id="exp_title">Experience</h2>
 
-        <!--Job 1-job title-->
-        <div class="grid-container">
+      <!--Job 1-job title-->
+      <div class="grid-container">
         <section class="grid-50 tablet-grid-50 mobile-grid-50">
-        <div class="work_titles">
-          <p>Store Supervisor,<small class="text-muted"> Icon Stores LTD.<span class="job_dates">2016-present</span></small></p>
-        </div>
+          <div class="work_titles">
+            <p>Store Supervisor,<small class="text-muted"> Icon Stores LTD.<span class="job_dates">2016-present</span></small></p>
+          </div>
 
-        <!-- job 1-Work description -->
-        <div class="work_des">
-          <ul>
-            <li>Provided excellent customer service at all times and answered various customer inquiries.</li>
-            <li>Maintained a balanced cash drawer at all times</li>
-            <li>Sorted out daily banking for store</li>
-            <li>Assisted in serving an average of 100 customers per day</li>
-            <li>Managed all aspects of store presentation, including ordering through certain suppliers</li>
-            <li>In charge of staff rota and holidays</li>
-            <li>Promoted from store assitant to store supervisor</li>
-            <li>Trained all new employees in all aspects of the business</li>
-          </ul>
-        </div>
+          <!-- job 1-Work description -->
+          <div class="work_des">
+            <ul>
+              <li>Providing excellent customer service and answering customer inquiries.</li>
+              <li>Maintaining a balanced cash drawer at all times</li>
+              <li>Sorting out daily banking for store & in charge of staff rota and holidays</li>
+              <li>Managed all aspects of store presentation, including ordering through certain suppliers</li>
+              <li>Trained all new employees in all aspects of the business</li>
+            </ul>
+          </div>
         </section>
 
         <!--Job 2-job title-->
         <section class="grid-50 tablet-grid-50 mobile-grid-50">
-        <div class="work_titles">
-          <p>Shop Assitant,<small class="text-muted"> Aye Scream<span class="job_dates">2016</span></small></p>
-        </div>
+          <div class="work_titles">
+            <p>Shop Assitant,<small class="text-muted"> Aye Scream<span class="job_dates">2016</span></small></p>
+          </div>
 
-        <!-- job 2-Work description -->
-        <div class="work_des">
-          <ul>
-            <li>Serving customers and dealing with any complaints or inquiries</li>
-            <li>Prepared fresh food every morning such as sandwiches, soup, macaroni, etc.</li>
-            <li>Managed shop appearance by stocking up and cleaning</li>
-            <li>In charge of all social media accounts</li>
-            <li>Commisioned to create a chalkboard menu for the shop</li>
-          </ul>
-        </div>
-      </section>
-    </div>
+          <!-- job 2-Work description -->
+          <div class="work_des">
+            <ul>
+              <li>Serving customers and dealing with any complaints or inquiries</li>
+              <li>Prepared fresh food every morning such as sandwiches, soup, macaroni, etc.</li>
+              <li>Managed shop appearance by stocking up and cleaning</li>
+              <li>In charge of all social media accounts</li>
+              <li>Commisioned to create a chalkboard menu for the shop</li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
-        <!--Job 3-job title-->
-        <div class="grid-container">
+      <!--Job 3-job title-->
+      <div class="grid-container">
         <section class="grid-50 tablet-grid-50 mobile-grid-50">
-        <div class="work_titles">
-          <p>Lead Entertainer,<small class="text-muted"> Little Sparkles Parties<span class="job_dates">2013-2016</span></small></p>
-        </div>
+          <div class="work_titles">
+            <p>Lead Entertainer,<small class="text-muted"> Little Sparkles Parties<span class="job_dates">2013-2016</span></small></p>
+          </div>
 
-        <!-- job 3-Work description -->
-        <div class="work_des">
-          <ul>
-            <li>Organising, setting up and running tailor made childrens birthday parties</li>
-            <li>Providing childrens party entertainment and face paint</li>
-            <li>In charge of training new staff memebers</li>
-            <li>Coordinating external employees</li>
-          </ul>
-        </div>
-      </section>
+          <!-- job 3-Work description -->
+          <div class="work_des">
+            <ul>
+              <li>Organising, setting up and running tailor made childrens birthday parties</li>
+              <li>Providing childrens party entertainment and face paint</li>
+              <li>In charge of training new staff memebers</li>
+              <li>Coordinating external employees</li>
+            </ul>
+          </div>
+        </section>
 
         <!--Job 4-job title-->
         <section class="grid-50 tablet-grid-50 mobile-grid-50">
-        <div class="work_titles">
-          <p>Social Media & Community Manager,<small class="text-muted"> The Brave Art Ltd.<span class="job_dates">2014-2015</span></small></p>
-        </div>
+          <div class="work_titles">
+            <p>Social Media & Community Manager,<small class="text-muted"> The Brave Art Ltd.<span class="job_dates">2014-2015</span></small></p>
+          </div>
 
-        <!-- job 4-Work description -->
-        <div class="work_des">
-          <ul>
-            <li>Updating social media outlets</li>
-            <li>Assisting in company development planning</li>
-            <li>Organinsing and planning events/exhibitions</li>
-            <li>Company representative at various events/exhibitions</li>
-          </ul>
-        </div>
-      </section>
+          <!-- job 4-Work description -->
+          <div class="work_des">
+            <ul>
+              <li>Updating social media outlets</li>
+              <li>Assisting in company development planning</li>
+              <li>Organinsing and planning events/exhibitions</li>
+              <li>Company representative at various events/exhibitions</li>
+            </ul>
+          </div>
+        </section>
       </div>
     </section>
 
 
-    <!--Section 6-Skills-->
+    <!--Section 4-Skills-->
     <div class="grid-container">
       <section class="grid-100 tablet-grid-100 mobile-grid-100 pbbg">
-        <h2>Skills</h2>
-        <!-- Microsoft Office -->
-        <div class="progress">
-          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Microsoft Office</div>
-        </div>
-        <!-- Photoshop -->
-        <div class="progress">
-          <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
-        </div>
-        <!-- Illustrator -->
-        <div class="progress">
-          <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Illustrator</div>
-        </div>
-        <!-- HTML -->
-        <div class="progress">
-          <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML</div>
-        </div>
+        <h2 id="skills_title">Skills</h2>
         <!-- CSS -->
         <div class="progress">
-          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+          <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
         </div>
         <!-- Javascript -->
         <div class="progress">
           <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Javascript</div>
         </div>
+        <!-- Photoshop -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+        </div>
+        <!-- HTML -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div>
+        <!-- Illustrator -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Illustrator</div>
+        </div>
         <!-- Teamwork -->
         <div class="progress">
-          <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Teamwork</div>
+          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Teamwork</div>
         </div>
         <!-- Problem Solving -->
         <div class="progress">
-          <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Problem Solving</div>
+          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Problem Solving</div>
+        </div>
+        <!-- Microsoft Office -->
+        <div class="progress">
+          <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Microsoft Office</div>
         </div>
         <!-- Languages -->
         <div class="progress">
-          <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Fluent in Bulgarian & English</div>
+          <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Fluent in Bulgarian & English</div>
         </div>
     </div>
 
     </section>
 
     <!--Section 7-Refs-->
-    <section id="refs">
-      <p>References upon Request</p>
+    <section>
+      <p id="refs">References upon Request</p>
     </section>
+
+    <!-- to fix bootstrap footer from covering text -->
+    <div class="footer_height"></div>
+
   </main>
   <!--End of Main-->
 
-  <!--Start of footer-->
-  <div class="grid-container">
-    <footer>
-      <h3 id="Access">Access Keys</h3>
-      <ul>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>H</strong>ome</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>R</strong>esume</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>P</strong>rojects</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>C</strong>ontact Me</li>
+  <!-- bootstrap footer -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+    <a class="navbar-brand" id="Access">Access Keys</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"><strong>H</strong>ome <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>R</strong>esume <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>P</strong>rojects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>C</strong>ontact Me <span class="sr-only">(current)</span></a>
+        </li>
       </ul>
-    </footer>
-  </div>
-  <!--End of footer-->
+    </div>
+  </nav>
 
   <!-- Bootstrap javascript -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

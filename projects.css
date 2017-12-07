@@ -10,13 +10,27 @@ main {
 
 /*cv project image*/
 .cvpic{
-  width: 100%;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  width: 80%;
+  background-color: #e6eeff;
+  margin: 10 10px;
+  text-align: center;
 
 }
 
+/*.button {
+background-color: #e7e7e7; color: black;
+}*/
 
-.card {
+
+/*to fix bootstrap footer from covering text*/
+.footer_height {
+  position: absolute;
   width: 100%;
-  background-color: #ccddff;
-  margin: 0 10px;
+  height:10%;
 }

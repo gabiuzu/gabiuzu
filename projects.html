@@ -14,84 +14,112 @@
 </head>
 
 <body>
-  <div class="grid-container">
-    <!--Start of header-->
-    <header>
-      <!--Logo-->
-      <div class="grid-25 tablet-grid-10 mobile-grid-33">
-        <img id="Gabi_logo" src="logo.png" alt="Gabriela Uzunova Logo">
-      </div>
 
-      <!--Website Navigation-->
-      <nav class="grid-75 tablet-grid-50 mobile-grid-50">
-        <ul id="quicklinks">
-          <li><a href="homepage.html" accesskey="h">Home</a></li>
+  <!--Start of header-->
+  <header>
+    <!-- Bootstrap Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+      <a class="navbar-brand gabi_name"><img src="logo.png" id="Gabi_logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <li><a href="Resume.html" accesskey="r">Resume</a></li>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-          <li><a href="projects.html" accesskey="p">Projects</a></li>
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="homepage.html" accesskey="h">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.html" accesskey="r">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="active" href="projects.html" accesskey="p">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link_border" href="contact.html " accesskey="c">Contact Me</a>
+          </li>
 
-          <li id="link_border"><a href="contact.html" accesskey="c">Contact Me</a></li>
-
-          <!-- Social Media Links -->
-          <li><a href="https://www.linkedin.com/in/gabriela-uzunova-518077aa/"><i class="fa fa-linkedin-square fa-3xtest" aria-hidden="true"></i></a></li>
-
-          <li><a href="https://www.youtube.com/user/gabiuzu"><i class="fa fa-youtube-play fa-3xtest" aria-hidden="true"></i></a></li>
-
-          <li><a href="https://www.instagram.com/gabiuzu/"><i class="fa fa-instagram fa-3xtest" aria-hidden="true"></i></a></li>
+          <!-- social media links -->
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/gabriela-uzunova-518077aa/"><i class="fa fa-linkedin-square fa-3xtest" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/user/gabiuzu"><i class="fa fa-youtube-play fa-3xtest" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/gabiuzu/"><i class="fa fa-instagram fa-3xtest" aria-hidden="true"></i></a>
+          </li>
         </ul>
-      </nav>
-  </div>
+      </div>
+    </nav>
 
+    <!--Logo-->
+    <!-- <div class="grid-25 tablet-grid-10 mobile-grid-33">
+      <img id="Gabi_logo" src="logo.png" alt="Gabriela Uzunova Logo">
+    </div> -->
   </header>
   <!--End of header-->
 
   <!--Start Main-->
   <main>
-
     <!-- BOOTSTRAP cards -->
     <!-- Isometric Illustration -->
     <div class="grid-container">
-        <div class="card-group">
+      <div class="card-group">
+        <div class="card grid-50 tablet-grid-50 mobile-grid-100">
+          <img class="isopic card-img-top" src="iso.png" alt="Isometric Illustration">
+          <div class="card-body">
+            <h4 class="card-title">Isometric Illustration</h4>
+            <p class="card-text">An isometric, platformer game world. Set in a fantasy genre with a japanese samurai theme.</p>
+            <!-- <a href="#" class=" button btn btn-primary">More info.</a> -->
+          </div>
+        </div>
 
-
-            <div class="card">
-              <img class="isopic card-img-top" src="iso.png" alt="Isometric Illustration">
-              <div class="card-body">
-                <h4 class="card-title">Isometric Illustration</h4>
-                <p class="card-text">An isometric, platformer game world. Set in a fantasy genre with a japanese samurai theme.</p>
-                <a href="#" class="btn btn-primary">More info.</a>
-              </div>
-            </div>
-
-      <!-- CV Illustration -->
-          <div class="card">
-            <img class="cvpic card-img-top" src="CV.png" alt="Branded CV for animated character Cruella De Vil from 101 Dalmations">
-            <div class="card-body">
-              <h4 class="card-title">Branded CV</h4>
-              <p class="card-text">CV based on fictional character Cruella De Vil and logo.</p>
-              <a href="#" class="btn btn-primary">More info.</a>
-            </div>
+        <!-- CV Illustration -->
+        <div class="card grid-50 tablet-grid-50 mobile-grid-100">
+          <img class="cvpic card-img-top" src="CV.png" alt="Branded CV for animated character Cruella De Vil from 101 Dalmations">
+          <div class="card-body">
+            <h4 class="card-title">Branded CV</h4>
+            <p class="card-text">CV based on fictional character Cruella De Vil and logo.</p>
+            <!-- <a href="#" class="button btn btn-primary">More info.</a> -->
+          </div>
         </div>
       </div>
 
     </div>
+
+    <!-- to fix bootstrap footer from covering text -->
+    <div class="footer_height"></div>
+
   </main>
   <!--End Main-->
 
-  <!--Start of footer-->
-  <div class="grid-container">
-    <footer>
-      <h3 id="Access">Access Keys</h3>
-      <ul>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>H</strong>ome</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>R</strong>esume</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>P</strong>rojects</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>C</strong>ontact Me</li>
+  <!-- bootstrap footer -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+    <a class="navbar-brand" id="Access">Access Keys</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"><strong>H</strong>ome <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>R</strong>esume <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>P</strong>rojects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>C</strong>ontact Me <span class="sr-only">(current)</span></a>
+        </li>
       </ul>
-    </footer>
-  </div>
-  <!--End of footer-->
+    </div>
+  </nav>
 
   <!-- Bootstrap javascript -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

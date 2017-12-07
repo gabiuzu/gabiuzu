@@ -1,116 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Coda:800');
 
 /*Constant CSS throughout whole website*/
 body {
-    background-color: #ccddff;
+    background-color: #e6eeff;
 }
 
 .grid-container {
   max-width: none;
 }
 
-header {
-  background-color: #f3f3f3;
-  text-align: center;
-  padding: 20px;
-  height: 90px;
-  margin: 0 auto;
+/*HEADER*/
+
+/*.gabi_name {
+  color: #4d4d4d;
+}*/
+
+#active {
+  color: #4d4d4d;
 }
 
-/* NAV MENU*/
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f3f3f3;
-    font-family: 'Montserrat',cursive;
-    float: right;
-
+/*nav links border to social media links*/
+.link_border {
+  border-right: solid 2px #cc4400;
 }
 
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #ddd;
-}
-
-
-
-/*Logo in header*/
 #Gabi_logo {
-  height:100px;
-  padding-top: 0px;
-  float: left;
+  height: 50px;
+  width: 50px;
+  float: right;
+  padding: 0;
+  margin: 0;
 
 }
 
+/*Logo in nav*/
+/*#Gabi_logo {
+  height:50px;
+  width: 50px;
+  float: right;
 
-/*Quicklinks*/
-#quicklinks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/*quicklink border to social media links*/
-#link_border {
-  border-right: solid 2px #cc4400
-}
-
+}*/
 
 
 /*FOOTER*/
 
 #Access {
   color: #cc4400;
-}
-footer {
-  background-color: #f3f3f3;
-  text-align: center;
-  align-items: center;
-  font-family: 'Nunito', sans-serif;
-  margin-top: 80px;
-
-}
-
-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f3f3f3;
-}
-
-footer li {
-    float: left;
-
-}
-
-footer li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-footer li a:hover {
-    background-color: #ddd;
-}
-
-strong{
-  font-weight: 600;
 }
