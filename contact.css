@@ -115,6 +115,10 @@ textarea:hover {
   #submit {
     width: 300px;
   }
+  #p_contactme {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 
