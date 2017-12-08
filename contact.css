@@ -11,7 +11,7 @@ body {
 }
 
 .contact_text {
-  padding-left: 40%;
+  text-align: center;
 }
 
 /*Forms*/
@@ -75,7 +75,7 @@ textarea:hover {
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
   border: solid 1px #b3aca7;
-  margin-right: 0
+  margin-right: 0;
   color: #726659;
 
 }
@@ -95,6 +95,21 @@ textarea:hover {
   width: 100%;
   height:10%;
 }
+
+@media (max-width:540px) {
+  #form {
+    width: 300px;
+  }
+  .inputfield {
+    width: 300px;
+  }
+  #submit {
+    width: 300px;
+  }
+}
+
+
+
 
 /*linked in badge (it works and i can do the embedding but i dont like how my page looks so im not using it :)*/
 /*.linkdin {

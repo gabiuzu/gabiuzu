@@ -13,9 +13,6 @@ body {
 
 /*HEADER*/
 
-/*.gabi_name {
-  color: #4d4d4d;
-}*/
 
 #active {
   color: #4d4d4d;
@@ -35,14 +32,12 @@ body {
 
 }
 
-/*Logo in nav*/
-/*#Gabi_logo {
-  height:50px;
-  width: 50px;
-  float: right;
-
-}*/
-
+@media (max-width: 475px) {
+  #Access {
+    font-size: 0%;
+    margin: 0;
+  }
+}
 
 /*FOOTER*/
 
