@@ -1,17 +1,40 @@
 
+
+/*header {
+  height: 150px;
+/*/
+.grid-container {
+  max-width: none;
+}
+
 /*Font*/
-body{
+body {
   font-family: 'Nunito', sans-serif;
 }
 
-/*Educaiton and profile*/
-.top_text {
-    padding-top: 30px;
+/*name and job title*/
+#left_info {
+  border-right: solid 2px #cc4400;
+  padding-left: 35%;
 }
 
-/*Profile*/
+/*Web Developer*/
+.webd {
+  padding-left: 20%;
+}
+
+/*DOB and Nationality*/
+#right_info {
+  padding-top: 30px;
+}
+
 #profile {
+  padding-top: 5%;
   border-right: solid 2px #cc4400;
+}
+
+#Education {
+  padding-top: 5%;
 }
 
 #profile_title {
@@ -23,40 +46,8 @@ body{
   padding-left: 30%;
 }
 
-/*Cambridge International School Details*/
-.CIS {
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.CIS p {
-  margin-bottom: 0;
-}
-
-/*Robert Gordon Uni details*/
-.RGU {
-  padding: 0;
-  margin: 0 ;
-}
-
-.RGU p {
-  margin-bottom: 0;
-}
-
-/*Experience*/
-
-#exp_title {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.work_titles {
-  font-weight: bold;
-}
-
-.work_titles h3 {
-  font-size: 20px;
+#Job_Experience {
+  border-right: solid 2px #cc4400;
 }
 
 .job_dates {
@@ -65,49 +56,27 @@ body{
   color: #cc4400;
 }
 
-/*Skills*/
-
-#skills_title {
-    text-align: center;
-    padding-top: 20px;
-}
-
 .progress {
   margin-bottom: 10px;
   background-color: #ccddff !important;
 }
 
-/*References upon request*/
-#refs {
-  text-align: center;
-  font-size: 150%;
+/*#Education {
+  margin: auto;
+}*/
+.CIS {
+  line-height: 20%;
+  margin-bottom: 5%;
 
 }
 
-/*to fix bootstrap footer from covering text*/
-.footer_height {
-  position: absolute;
-  width: 100%;
-  height:7%;
+.RGU {
+  line-height: 20%;
 }
 
-/*fixing weird sizing on mobile device*/
-@media  (max-width:767px) {
-  #profile_des {
-    border: 0;
-    padding: 0;
-  }
 
-  #profile {
-    border: none;
-    text-align: center;
-  }
 
-  #profile_title {
-    float: none;
-  }
-
-  #Education {
-    text-align: center;
-  }
-}
+/*Progress bar background*/
+/*.pbbg {
+  background-color: #ccddff;
+}*/
