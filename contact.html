@@ -3,42 +3,64 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- Bootstrap meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>GABRIELA UZUNOVA</title>
+  <!-- Bootstrap meta -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- Font-awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- Unsemantic -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.1.3/unsemantic-grid-responsive-tablet.css">
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <!-- My style links -->
   <link rel="stylesheet" href="base.css">
   <link rel="stylesheet" href="contact.css">
-
 </head>
 
 <body>
-  <div class="grid-container">
-    <!--Start of header-->
-    <header>
-      <!--Logo-->
-      <div class="grid-25 tablet-grid-10 mobile-grid-33">
-        <img id="Gabi_logo" src="logo.png" alt="Gabriela Uzunova Logo">
-      </div>
+  <!--Start of header-->
+  <header>
+    <!-- Bootstrap Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+      <a class="navbar-brand" href="index.html"><img src="logo.png" id="Gabi_logo" alt="Gabriela Uzunova Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <!--Website Navigation-->
-      <nav class="grid-75 tablet-grid-50 mobile-grid-50">
-        <ul id="quicklinks">
-          <li><a href="homepage.html" accesskey="h">Home</a></li>
-          <li><a href="Resume.html" accesskey="r">Resume</a></li>
-          <li><a href="projects.html" accesskey="p">Projects</a></li>
-          <li id="link_border"><a href="contact.html" accesskey="c">Contact Me</a></li>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-          <!-- Social Media Links -->
-          <li><a href="https://www.linkedin.com/in/gabriela-uzunova-518077aa/"><i class="fa fa-linkedin-square fa-3xtest" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.youtube.com/user/gabiuzu"><i class="fa fa-youtube-play fa-3xtest" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.instagram.com/gabiuzu/"><i class="fa fa-instagram fa-3xtest" aria-hidden="true"></i></a></li>
+          <!-- Links -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" accesskey="h">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.html" accesskey="r">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html" accesskey="p">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link_border" id="active" href="contact.html " accesskey="c">Contact</a>
+          </li>
+
+          <!-- social media links -->
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/gabriela-uzunova-518077aa/"><i class="fa fa-linkedin-square fa-3xtest" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/user/gabiuzu"><i class="fa fa-youtube-play fa-3xtest" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/gabiuzu/"><i class="fa fa-instagram fa-3xtest" aria-hidden="true"></i></a>
+          </li>
         </ul>
-      </nav>
-  </div>
-
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </header>
   <!--End of header-->
 
@@ -46,57 +68,72 @@
   <!--Start of main-->
   <main>
     <div class="grid-container">
-      <!--Section 1-contact me-->
-      <section id="contactmetext" class="grid-50 tablet-grid-50 mobile-grid-50">
+      <!--Contact me-->
+      <section class="grid-100 tablet-grid-100 mobile-grid-100">
+        <div class="contact_text">
+          <h1>Contact Me</h1>
+        </div>
         <p id="p_contactme">I would be happy to talk about any projects,collaborate on new ones and anwswer questions regarding my work. I'm most reachable from 09:00-18:00 Monday to Friday. However email replies are possible during weekends. </p>
       </section>
-
-      <!--Section 2 contact info-->
-      <section id="contactinfotext" class="grid-50 tablet-grid-50 mobile-grid-50">
-          <p><i class="fa fa-phone fa-3xtest" aria-hidden="true" alt="Phone Number">+44 (0)7729388209</i></p>
-          <p><i class="fa fa-envelope fa-3xtest" aria-hidden="true" alt="My Email">gabrielauzu@gmail.com</i></p>
-      </section>
     </div>
+
 
     <div class="grid-container">
-
       <!-- Contact Me Form -->
-      <div class="contact_text">
-        <h1>Contact Me</h1>
-      </div>
+
       <form id="form" class="grid-100 tablet-grid-100 mobile-grid-100">
-        <label for="Name"></label>
-        <input type="text" name="name" placeholder="Full Name" />
-        <label for="Email"></label>
-        <input type="text" name="email" placeholder="Email" />
-        <label for="Comment"></label>
-        <textarea name="comments" rows="5" cols="45" placeholder="Comments"></textarea>
-        <input id="submit" type="submit" name="" value="Submit" />
+        <input class="inputfield" type="text" name="name" placeholder="Full Name" />
+        <input class="inputfield" type="text" name="email" placeholder="Email" />
+        <textarea class="inputfield" name="comments" rows="5" cols="45" placeholder="Comments"></textarea>
+        <input class="inputfield" id="submit" type="submit" value="Submit" />
       </form>
 
-      <!-- Embedded Badges-->
+      <!-- Embedded Badges-didnt like how it looked so i removed it but it works -->
       <!-- <section id="linkdincontainer" class="grid-50 tablet-grid-50 mobile-grid-50"> -->
-        <!--Linked In-->
-        <!-- <div class="LI-profile-badge linkdin" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="gabriela-uzunova-518077aa"><a class="LI-simple-link" href='https://uk.linkedin.com/in/gabriela-uzunova-518077aa?trk=profile-badge'>Gabriela Uzunova</a></div> -->
-      </section>
+      <!--Linked In-->
+      <!-- <div class="LI-profile-badge linkdin" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="gabriela-uzunova-518077aa"><a class="LI-simple-link" href='https://uk.linkedin.com/in/gabriela-uzunova-518077aa?trk=profile-badge'>Gabriela Uzunova</a></div> -->
+      <!-- </section> -->
     </div>
+
+    <!-- to fix bootstrap footer from covering text -->
+    <div class="footer_height"></div>
+
   </main>
   <!--End of main-->
 
+  <!-- bootstrap footer-->
+  <nav class="navbar navbar-expand navbar-light bg-light fixed-bottom">
+    <a class="navbar-brand" id="Access">Access Keys</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!--Start of footer-->
-  <div class="grid-container">
-    <footer class="grid-100">
-      <h3 id="Access">Access Keys</h3>
-      <ul>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>H</strong>ome</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>R</strong>esume</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>P</strong>rojects</li>
-        <li class="grid-25 tablet-grid-25 mobile-grid-25"><strong>C</strong>ontact Me</li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"><strong>H</strong>ome <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>R</strong>esume <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>P</strong>rojects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><strong>C</strong>ontact<span class="sr-only">(current)</span></a>
+        </li>
       </ul>
-    </footer>
-  </div>
-  <!--End of footer-->
+    </div>
+  </nav>
+
+  <!-- Bootstrap javascript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <!-- Linked In badge -->
+  <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
+
 
 </body>
 

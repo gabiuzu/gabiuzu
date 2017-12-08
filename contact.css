@@ -3,42 +3,35 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-.grid-container {
-  max-width: none;
+h1 {
+    padding-top: 20px;
 }
 
-/*Border line*/
+/*Contact Me*/
+.contact_text {
+  text-align: center;
+}
+
 #p_contactme {
-  border-right: solid 2px #cc4400;
-  padding-left: 50%;
+  padding: 20px 30% 20px 30%;
+  border-bottom: solid 2px #cc4400;
+  text-align: center;
 }
-
-#contactinfotext {
-    line-height: 20%;
-}
-
-/*linked in badge */
-/*.linkdin {
-float: right;
-}*/
-
-/*.linkdincontainer{
-  padding-right: 0px !important;
-}*/
-
 
 /*Forms*/
-.contact_text {
-  padding-left: 35%;
+#form {
+  margin:auto;
+  position: relative;
+  width: 470px;
+  /*padding-left: 30%;*/
 }
 
-#form {
-  position: relative;
-  width: 500px;
-  padding-left: 30%;
+.inputfield {
+  margin-bottom: 10px;
 }
 
 input {
+  margin:auto;
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
   width: 470px;
@@ -50,16 +43,15 @@ input {
   color: #726659;
 
   border: solid 1px #b3aca7;
-  border-bottom: none;
-
 }
 
 input:hover {
-  background: #b3aca7;
+  background: rgba(204, 68, 0,0.6);
   color: #e2dedb;
 }
 
 textarea {
+  margin:auto;
   width: 470px;
   max-width: 470px;
   height: 110px;
@@ -77,19 +69,22 @@ textarea {
 }
 
 textarea:hover {
-  background: #b3aca7;
+  background: rgba(204, 68, 0,0.6);
   color: #e2dedb;
 }
 
+/*Submit button*/
 #submit {
-  width: 100%;
-  padding: 0;
+  margin:auto;
+  width: 470px;
+  padding:0;
   margin: -5px 0px 0px 0px;
 
   font-family: 'Nunito', sans-serif;
   font-size: 1em;
   border: solid 1px #b3aca7;
-  margin-right: 0
+  margin-right: 0;
+  color: #726659;
 
 }
 
@@ -97,6 +92,43 @@ textarea:hover {
   color: #e2dedb;
 }
 
+/*references upon request*/
 #refs p {
   text-align: center;
 }
+
+/*to fix bootstrap footer from covering text*/
+.footer_height {
+  position: absolute;
+  width: 100%;
+  height:10%;
+}
+
+/*fixing weird sizing on mobile device*/
+@media (max-width:540px) {
+  #form {
+    width: 300px;
+  }
+  .inputfield {
+    width: 300px;
+  }
+  #submit {
+    width: 300px;
+  }
+  #p_contactme {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+
+
+/*linked in badge (it works and i can do the embedding but i dont like how my page looks so im not using it :)*/
+/*.linkdin {
+float: right;
+}*/
+
+/*.linkdincontainer{
+  padding-right: 0px !important;
+}*/
