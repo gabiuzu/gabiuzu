@@ -49,6 +49,7 @@ main {
 @media (max-width: 1240px) {
   #myname {
     font-size: 650%;
+    text-align: center;
   }
   #description {
     font-size: 30px;
