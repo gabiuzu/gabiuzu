@@ -32,15 +32,18 @@ body {
 
 }
 
+/*FOOTER*/
+
+#Access {
+  color: #cc4400;
+}
+
 @media (max-width: 475px) {
   #Access {
     font-size: 0%;
     margin: 0;
   }
-}
-
-/*FOOTER*/
-
-#Access {
-  color: #cc4400;
+  .nav-link strong {
+    color: #cc4400;
+  }
 }
