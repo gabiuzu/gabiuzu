@@ -37,6 +37,7 @@ main {
   height:7%;
 }
 
+/*fixing weird sizing on mobile device*/
 @media (max-width: 1350px) {
   #myname {
     font-size:750%;

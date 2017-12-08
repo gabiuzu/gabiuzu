@@ -36,6 +36,7 @@ background-color: #e7e7e7; color: black;
   height:10%;
 }
 
+/*fixing weird sizing on tablet device*/
 @media (max-width:991px) {
   .card {
     flex: none !important;

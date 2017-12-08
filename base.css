@@ -12,8 +12,6 @@ body {
 }
 
 /*HEADER*/
-
-
 #active {
   color: #4d4d4d;
 }
@@ -38,6 +36,7 @@ body {
   color: #cc4400;
 }
 
+/*fixing weird sizing on mobile device*/
 @media (max-width: 475px) {
   #Access {
     font-size: 0%;

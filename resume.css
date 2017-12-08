@@ -55,6 +55,10 @@ body{
   font-weight: bold;
 }
 
+.work_titles h3 {
+  font-size: 20px;
+}
+
 .job_dates {
   float: right;
   font-weight: bold;
@@ -87,6 +91,7 @@ body{
   height:7%;
 }
 
+/*fixing weird sizing on mobile device*/
 @media  (max-width:767px) {
   #profile_des {
     border: 0;
@@ -101,7 +106,7 @@ body{
   #profile_title {
     float: none;
   }
-  
+
   #Education {
     text-align: center;
   }
