@@ -1,2 +1,0 @@
-# gabiuzu
-My coursework
